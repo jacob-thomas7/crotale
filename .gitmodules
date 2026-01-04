@@ -1,0 +1,9 @@
+[submodule "packages/crotale-core"]
+	path = packages/crotale-core
+	url = https://github.com/jacob-thomas7/crotale-core
+[submodule "packages/crotale-utils"]
+	path = packages/crotale-utils
+	url = https://github.com/jacob-thomas7/crotale-utils
+[submodule "packages/crotale-gamedev"]
+	path = packages/crotale-gamedev
+	url = https://github.com/jacob-thomas7/crotale-gamedev
