@@ -63,5 +63,7 @@ int main()
     // Necessary to start the event system. Don't forget it!
     // The program will safely end, after completing the current
     // when a class call's the Application's `quit()` method.
+    // (In this case, utils::Runtime will call `quit()` when it
+    // receives a SIGINT or SIGTERM)
     application.loop();
 }
