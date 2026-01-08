@@ -9,6 +9,7 @@ the design principle of "only pay for what you use."
 * [Crotale Core](https://github.com/jacob-thomas7/crotale-core): The base library for setting up an application.
 * [Crotale Utils](https://github.com/jacob-thomas7/crotale-utils): A set of widely-applicable utility functionality.
 * [Crotale GameDev](https://github.com/jacob-thomas7/crotale-gamedev): A game engine based on [SDL3](https://github.com/libsdl-org/SDL).
+* [Crotale Console](https://github.com/jacob-thomas7/crotale-console): Tools for text-based applications.
 
 ## Getting Started
 
