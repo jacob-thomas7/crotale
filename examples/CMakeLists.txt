@@ -2,8 +2,11 @@ include("../cmake/check_dependency.cmake")
 
 check_dependency(core)
 check_dependency(utils)
+check_dependency(gamedev)
 
 set(SRC "${PROJECT_SOURCE_DIR}/examples")
+
+# utils_basics
 add_executable(utils_basics
     "${SRC}/utils_basics.cpp"
 )
@@ -16,4 +19,21 @@ target_include_directories(utils_basics PUBLIC
 target_link_libraries(utils_basics
     crotale::core
     crotale::utils
+)
+
+# gamedev_basics
+add_executable(gamedev_basics
+    "${SRC}/gamedev_basics.cpp"
+)
+
+target_include_directories(gamedev_basics PUBLIC
+    "${CROTALE_CORE_SOURCE_DIR}/include"
+    "${CROTALE_UTILS_SOURCE_DIR}/include"
+    "${CROTALE_GAMEDEV_SOURCE_DIR}/include"
+)
+
+target_link_libraries(gamedev_basics
+    crotale::core
+    crotale::utils
+    crotale::gamedev
 )

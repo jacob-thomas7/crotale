@@ -12,11 +12,13 @@ project(
 )
 
 # Options
+set(CROTALE_NAMESPACE_SHORTCUT ON CACHE BOOL "Create certain namespace shortcuts, such as CORE_SOURCE_DIR for CROTALE_CORE_SOURCE_DIR")
 set(CROTALE_BUILD_EXAMPLES ON CACHE BOOL "Build executables from the examples directory")
 
 # Packages
 add_subdirectory("packages/crotale-core")
 add_subdirectory("packages/crotale-utils")
+add_subdirectory("packages/crotale-gamedev")
 
 if(CROTALE_BUILD_EXAMPLES)
     add_subdirectory("examples")

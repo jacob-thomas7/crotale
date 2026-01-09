@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/packages/crotale-core/include",
                 "${workspaceFolder}/packages/crotale-utils/include",
-                "${workspaceFolder}/packages/crotale-gamedev/include"
+                "${workspaceFolder}/packages/crotale-gamedev/include",
+                "${workspaceFolder}/build/_deps/sdl3-src/include"
             ],
             "defines": [],
             "cStandard": "c17",
